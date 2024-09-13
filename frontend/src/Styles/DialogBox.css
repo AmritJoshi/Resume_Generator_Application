@@ -1,0 +1,52 @@
+.Dialog-Box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #425061;
+    max-width: fit-content;
+    border-radius: 20px;
+    background-color: #425061;
+    margin-bottom: 30px;
+}
+
+.tabs{   
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+}
+
+.active-toggled-tab{
+    background-color: #00c8aa;
+    color: #ffffff;
+    border: 1px solid #00c8aa;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.contents{
+    display: none;
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.content2{
+    display: flex;
+    flex-direction: row;
+}
+.active-content{
+    display: block;
+}
+
+input[type=text]:focus {
+    outline:none;
+}

@@ -1,0 +1,96 @@
+.section-header{
+  font-size: 25px;
+  width: fit-content;
+  color: #449399;
+  font-weight: bold;
+  border: none;
+}
+.workexp{
+    display:flex;
+    flex-direction:column;
+  }
+  .position-header{
+    margin-top:10px;
+    font-size:30px;
+    border:none;
+  }
+  .Company-name{
+    margin-top:10px;
+    border:none;
+    font-size:20px;
+  }
+  .date-container{
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+    margin-left:10px;
+  }
+  .mm-class{
+    max-width:25px;
+    border:none;
+    font-size:13px;
+  }
+  .yyyy-class{
+    max-width:40px;
+    border:none;
+    font-size:13px;
+  }
+  
+  .start-date-container{
+    display:flex;
+    flex-direction:row;
+    
+  }
+  .end-date-container{
+    display:flex;
+    flex-direction:row;
+    margin-left:5px;
+  }
+  .position-header:focus{
+    border-bottom:1.5px solid #000;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    border-color:#00c8aa;
+  }
+  
+  .Company-name:focus{
+    border-bottom:1.5px solid #000;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    border-color:#00c8aa;
+  }
+
+  .citandcodesc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  .city{
+    font-size: 15px;
+    border: none;
+  }
+  .description{
+    font-size: 15px;
+    margin-top: 3px;
+    border: none;
+  }
+  .responsibility{
+    margin-top: 5px;
+    font-size: 15px;
+    border: none;
+  }
+  .ContactPerson{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+  }
+  .ContactPerson input{
+    font-size: 15px;
+    margin-bottom: 3px;
+    border: none;
+  }
+  input[type=text]:focus {
+    outline:none;
+}

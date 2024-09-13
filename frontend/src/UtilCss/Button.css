@@ -1,0 +1,89 @@
+:root{
+    --primary:#4628ff;
+    --gray:#495057;
+    --red:#fa5252;
+    --violet:#b197fc;
+    --indigo:#5c7cfa;
+    --blue:#1971c2;
+    --cyan:#15aabf;
+    --teal:#38d9a9;
+    --green:#37b24d;
+    --orange:#ff922b;
+  }
+  
+  .button{
+    margin:1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:800;
+    cursor:pointer;
+    padding:5px;
+  }
+  
+  .button:hover{
+    transform : translateY(-3px);
+  }
+  .button--gray{
+    background-color:var(--gray);
+    color:white;
+    border-radius:8px;
+  }
+  .button--red{
+    background-color:var(--red);
+    color:white;
+    border-radius:8px;
+  }
+  .button--violet{
+    background-color:var(--violet);
+    color:white;
+    border-radius:8px;
+  }
+  .button--indigo{
+    background-color:var(--indigo);
+    color:white;
+    border-radius:8px;
+  }
+  
+  .button--green{
+    background-color:var(--green);
+    color:#300c0c;
+    border-radius:10px;
+  }
+  .button--blue{
+    background-color:var(--blue);
+    color:#fff3bf;
+    border-radius:8px;
+  }
+  
+  .button--cyan{
+    background-color:var(--cyan);
+    color:#ffe3e3;
+    border-radius:8px;
+  }
+  
+  .button--teal{
+    background-color:var(--teal);
+    color:white;
+    border-radius:8px;
+  }
+  
+  .button--orange{
+    background-color:var(--orange);
+    color:white;
+    border-radius:8px;
+  }
+  
+  .button--small{
+    height:25%;
+    width:15%
+  }
+  .button--medium{
+    height:30%;
+    width:20%;
+  }
+  
+  .button--large{
+    height:35%;
+    width:25%;
+  }
+  
+  

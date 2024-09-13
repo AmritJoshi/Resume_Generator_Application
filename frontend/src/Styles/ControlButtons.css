@@ -1,0 +1,34 @@
+
+.controls{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #00c8aa;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: fit-content;
+    background-color: #00c8aa;;
+    margin-left: 38%;
+}
+.download{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+}
+
+.edit{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+}
+.pdf{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+}
+.png{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+}

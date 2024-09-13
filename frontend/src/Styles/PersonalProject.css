@@ -1,0 +1,56 @@
+.section-header{
+    font-size: 25px;
+    width: fit-content;
+    color: #449399;
+    font-weight: bold;
+    border: none;
+}
+
+.PersonalProjects{
+    font-size: 20px;
+    margin-top: 5px;
+    border: none;
+}
+
+.date-container{
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+    margin-left:10px;
+  }
+  .mm-class{
+    max-width:25px;
+    border:none;
+    font-size:13px;
+  }
+  .yyyy-class{
+    max-width:40px;
+    border:none;
+    font-size:13px;
+  }
+  
+  .start-date-container{
+    display:flex;
+    flex-direction:row;
+    
+  }
+  .end-date-container{
+    display:flex;
+    flex-direction:row;
+    margin-left:5px;
+  }
+
+  .Description{
+    font-size: 15px;
+    margin-top: 5px;
+    border: none;
+  }
+
+  .button{
+    width: 25px;
+    height: 25px;
+    color: #449399;
+  }
+  input[type=text]:focus {
+    outline:none;
+}
